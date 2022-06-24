@@ -1,4 +1,4 @@
-# Task Tracker app using React
+# Task Tracker app using React and A JSON Server as a fake backend
 
 ## Available Scripts
 
