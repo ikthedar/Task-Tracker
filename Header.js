@@ -4,7 +4,7 @@ import Button from './Button'
 
 const Header = ( {title} ) => {
   const onClick = () => {
-    console.log('Click')
+    console.log('Click') // Added the onClick here which will be passed through Button Component js file
   }
 
 
@@ -33,5 +33,5 @@ Header.propTypes = {
 // }
 
 
-// adsas
+
 export default Header
