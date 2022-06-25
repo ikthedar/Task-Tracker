@@ -1,6 +1,9 @@
 import PropTypes from 'prop-types'
 
 
+/* Created some props and passed it to the Button funtion.
+*/
+
 const Button = ({ color, text, onClick }) => {
     return <button 
     onClick={onClick} 
@@ -14,6 +17,9 @@ const Button = ({ color, text, onClick }) => {
 Button.defaultProps = {
     color: 'steelblue'
 }
+
+/* Specified the prop types for each of the props.
+*/
 
 Button.protoTypes = {
     text: PropTypes.string,
