@@ -1,5 +1,9 @@
 import { useState } from 'react' /* Instead of using the "state" outside of the component, it is always better to use Hooks like useState */
 
+/* We will cut this following state and paste it to main App component to use it as Global state 
+We will learn about Context API or Redux later to handle these situations */
+
+
 const Tasks = () => {
     const [tasks, setTasks] = useState ([       /* Here we named the state "tasks", and added the array of objects after useState */
         {
