@@ -1,7 +1,7 @@
-import { useState } from 'react'
+import { useState } from 'react' /* Instead of using the "state" outside of the component, it is always better to use Hooks like useState */
 
 const Tasks = () => {
-    const [tasks, setTasks] = useState ([
+    const [tasks, setTasks] = useState ([       /* Here we named the state "tasks", and added the array of objects after useState */
         {
             id: 1,
             text: "Hello There",
