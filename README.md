@@ -1,6 +1,6 @@
 # Task Tracker app using React and A JSON Server as a fake backend
 
-## Available Scripts asdasdasd
+## Available Scripts 
 
 In the project directory, you can run:
 
